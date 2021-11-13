@@ -1,0 +1,29 @@
+@import "vars";
+
+@mixin flexColmCenter(){
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+@mixin flexRowCenter(){
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+@mixin headText(){
+  font-family: $ff-main;
+  font-weight: 700;
+}
+
+@mixin middleText(){
+  font-family: $ff-main;
+  font-weight: 400;
+}
+
+@mixin lightText(){
+  font-family: $ff-main;
+  font-weight: 300;
+}

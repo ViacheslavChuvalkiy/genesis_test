@@ -1,0 +1,15 @@
+@import "vars";
+@import "mixins";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $ff-main;
+  background-color: $bg-color;
+  user-select: none;
+  ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+}
