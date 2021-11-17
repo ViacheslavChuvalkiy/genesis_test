@@ -20,6 +20,6 @@ git commit -m 'deploy'
 #git push -f git@github.com:ViacheslavChuvalkiy/ViacheslavChuvalkiy.github.io.git master
 
 # если вы публикуете по адресу https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:ViacheslavChuvalkiy/7eminar_test.git develop:gh-pages
+git push -f git@github.com:ViacheslavChuvalkiy/genesis_test.git develop:gh-pages
 
 cd -

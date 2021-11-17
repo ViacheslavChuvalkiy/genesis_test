@@ -1,1 +1,56 @@
 @import "vars";
+
+@mixin container {
+  max-width: 77rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+@mixin flexStyle{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin flexRowCenter{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+@mixin flexColm{
+  display: flex;
+  flex-direction: column;
+}
+@mixin flexColmCenter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+@mixin flexColmSpaceBetween{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@mixin headText{
+  font-family: $ff-main;
+  font-weight: 700;
+}
+
+@mixin middleText{
+  font-family: $ff-main;
+  font-weight: 400;
+}
+
+@mixin lightText{
+  font-family: $ff-main;
+  font-weight: 300;
+}
+
+@mixin hoverCardStyle{
+  box-shadow: 0 0.2rem 0.3rem 0.3rem $color-hoverBoxShadow;
+}
+@mixin hoverNameStyle{
+  box-shadow: 0 0.1rem 0.1rem 0.1rem $color-hoverBoxShadow;
+}
